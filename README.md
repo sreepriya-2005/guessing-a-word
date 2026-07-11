@@ -1,2 +1,121 @@
-# guessing-a-word
-# imported random library
+
+# 🎮 Word Guessing Game
+
+A simple command-line **Word Guessing Game** developed in Python where players attempt to guess a randomly selected word one letter at a time within a limited number of attempts. The project demonstrates the use of loops, lists, string manipulation, conditional statements, and randomization in Python.
+
+---
+
+## 📖 Project Overview
+
+The Word Guessing Game is a beginner-friendly Python application inspired by the classic Hangman game. The program randomly selects a word from a predefined word bank and displays hidden placeholders for each letter. Players guess one letter at a time, and correctly guessed letters are revealed while incorrect guesses reduce the remaining attempts.
+
+The game ends when the player successfully guesses the entire word or runs out of attempts.
+
+---
+
+## ✨ Features
+
+* 🎲 Randomly selects a word from a predefined word bank
+* 🔤 Guess one letter at a time
+* ✅ Reveals correctly guessed letters
+* ❌ Reduces attempts for incorrect guesses
+* 🎯 Win by guessing the complete word
+* 💻 Simple command-line interface
+* 🔄 Real-time word progress display
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* Python `random` module
+
+---
+
+## 📂 Project Structure
+
+```text
+Word-Guessing-Game/
+│
+├── game.py          # Main game program
+└── README.md        # Project documentation
+```
+
+---
+
+## 🚀 How It Works
+
+1. The program randomly selects a word from the word bank.
+2. Hidden placeholders (`_`) are displayed for each letter.
+3. The player guesses one letter at a time.
+4. If the guessed letter exists in the word:
+
+   * All matching positions are revealed.
+5. If the guess is incorrect:
+
+   * The remaining attempts decrease by one.
+6. The game continues until:
+
+   * The player guesses the entire word, or
+   * All attempts are exhausted.
+
+---
+
+## 📸 Sample Output
+
+```text
+Current word:
+_ _ _ _ _
+
+Guess a letter: s
+
+Great guess!
+
+Current word:
+s _ _ _ _
+
+Guess a letter: a
+
+Wrong guess! Attempts left: 9
+```
+
+---
+
+## 📚 Concepts Demonstrated
+
+* Random word selection
+* Lists and list manipulation
+* Loops (`while`, `for`)
+* Conditional statements (`if-else`)
+* String operations
+* User input handling
+* Game logic implementation
+
+---
+
+## 🎯 Learning Objectives
+
+This project was created to strengthen fundamental Python programming skills by developing an interactive console-based game. It focuses on implementing game logic, handling user input, and practicing control flow concepts.
+
+---
+
+## 🔮 Future Improvements
+
+* Add difficulty levels (Easy, Medium, Hard)
+* Load words from an external text file
+* Prevent repeated letter guesses
+* Display guessed letters separately
+* Add hints for each word
+* Track player score and statistics
+* Implement a graphical user interface (GUI) using Tkinter or Pygame
+* Include categories such as Animals, Countries, Movies, and Technology
+
+---
+
+## 👨‍💻 Author
+
+**R Sreepriya**
+
+Computer Science Engineering (Data Science)
+
+---
